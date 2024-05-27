@@ -1,6 +1,6 @@
 const allowedCors = ["https://front-batya.nomoredomainswork.ru"];
 
-function cors(req, res, next) {
+unction cors(req, res, next) {
   const { origin } = req.headers;
 
   if (allowedCors.includes(origin)) {
